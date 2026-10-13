@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libwkwkwk"
+version = "0.1.0"
+description = "Fail-Closed Comedy Engineering: a tiny, honest laughter helper"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "BLOON contributors" }
+]
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["wkwkwk"]
